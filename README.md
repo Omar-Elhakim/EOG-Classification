@@ -66,3 +66,7 @@ main.ipynb                  # full pipeline: load, extract features, classify
 3- Test Signal.txt          # unlabelled signal to classify
 Features-Matrix.xlsx        # generated feature matrix
 ```
+
+## License
+
+Released under the [MIT License](LICENSE).
