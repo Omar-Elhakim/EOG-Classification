@@ -18,7 +18,7 @@ The whole pipeline lives in [`main.ipynb`](main.ipynb):
 3. Load the unknown signal from `3- Test Signal.txt` and extract the same
    features.
 4. Classify it with a 1-nearest-neighbour rule using Euclidean distance over the
-   feature vectors, and report the matched label.
+   standardized feature vectors, and report the matched label.
 
 ## Features extracted
 
