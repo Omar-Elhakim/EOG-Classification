@@ -11,11 +11,11 @@ by finding the labelled sample whose features are closest to it.
 
 The whole pipeline lives in [`main.ipynb`](main.ipynb):
 
-1. Load the labelled signals from `2- Horizontal Signals.xlsx` (each column is
+1. Load the labelled signals from `horizontal_signals.xlsx` (each column is
    one signal; the last row holds the label).
 2. Extract features from every signal and build a feature matrix
    (`Features-Matrix.xlsx`).
-3. Load the unknown signal from `3- Test Signal.txt` and extract the same
+3. Load the unknown signal from `test_signal.txt` and extract the same
    features.
 4. Classify it with a 1-nearest-neighbour rule using Euclidean distance over the
    standardized feature vectors, and report the matched label.
@@ -56,14 +56,14 @@ jupyter notebook main.ipynb
 ```
 
 The final cell prints the label of the labelled signal that most closely matches
-the test signal in `3- Test Signal.txt`.
+the test signal in `test_signal.txt`.
 
 ## Project structure
 
 ```
 main.ipynb                  # full pipeline: load, extract features, classify
-2- Horizontal Signals.xlsx  # labelled EOG signals (one per column)
-3- Test Signal.txt          # unlabelled signal to classify
+horizontal_signals.xlsx     # labelled EOG signals (one per column)
+test_signal.txt             # unlabelled signal to classify
 Features-Matrix.xlsx        # generated feature matrix
 ```
 
